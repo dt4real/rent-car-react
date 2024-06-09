@@ -2,9 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  plugins: [react()],
-  base: '/rent-car-react',
-  resolve: {
-    alias: { src: '/src' }
-  }
+  base: '/rent-car-react/',
+  plugins: [react()]
 });
