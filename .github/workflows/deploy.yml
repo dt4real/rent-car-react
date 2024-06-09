@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write  # Ensure the GITHUB_TOKEN has write permissions
+
 jobs:
   build:
     name: Build
